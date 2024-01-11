@@ -1,3 +1,3 @@
-# bash <> powershell
+# PowerBash
 
-Map bash and powershell commands
+Raycast Extension to map Bash and PowerShell commands.
