@@ -1,0 +1,57 @@
+{
+    "bashToPowershell": {
+      "ls": {
+        "command": "Get-ChildItem",
+        "description": "List items in the current directory",
+        "examples": ["ls", "ls -l", "ls -a"]
+      },
+      "cd": {
+        "command": "Set-Location",
+        "description": "Change the current directory",
+        "examples": ["cd /path/to/folder", "cd .."]
+      },
+      "rm": {
+        "command": "Remove-Item",
+        "description": "Delete an item",
+        "examples": ["rm myfile.txt", "rm -r myfolder"]
+      },
+      "touch": {
+        "command": "New-Item",
+        "description": "Create a new file",
+        "examples": ["touch newfile.txt"]
+      },
+      "mkdir": {
+        "command": "New-Item -ItemType Directory",
+        "description": "Create a new directory",
+        "examples": ["mkdir newfolder"]
+      }
+    },
+    "powershellToBash": {
+      "Get-ChildItem": {
+        "command": "ls",
+        "description": "List directory contents",
+        "examples": ["Get-ChildItem", "Get-ChildItem -Hidden"]
+      },
+      "Set-Location": {
+        "command": "cd",
+        "description": "Change the shell working directory",
+        "examples": ["Set-Location C:\\", "Set-Location .."]
+      },
+      "Remove-Item": {
+        "command": "rm",
+        "description": "Remove files or directories",
+        "examples": ["Remove-Item myfile.txt", "Remove-Item myfolder -Recurse"]
+      },
+      "New-Item -ItemType File": {
+        "command": "touch",
+        "description": "Create a new file",
+        "examples": ["New-Item newfile.txt -ItemType File"]
+      },
+      "New-Item -ItemType Directory": {
+        "command": "mkdir",
+        "description": "Create a new directory",
+        "examples": ["New-Item newfolder -ItemType Directory"]
+      }
+    }
+  }
+  

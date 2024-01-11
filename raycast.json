@@ -1,0 +1,19 @@
+{
+    "name": "Command Translator",
+    "description": "Translates between Bash and PowerShell commands",
+    "commands": [
+      {
+        "name": "Translate to PowerShell",
+        "subtitle": "Translate a Bash command to PowerShell",
+        "mode": "view",
+        "path": "TranslateToPowerShell.tsx"
+      },
+      {
+        "name": "Translate to Bash",
+        "subtitle": "Translate a PowerShell command to Bash",
+        "mode": "view",
+        "path": "TranslateToBash.tsx"
+      }
+    ]
+  }
+  
